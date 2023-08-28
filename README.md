@@ -1,37 +1,31 @@
-# HTML Form Project
+# PetImgWebAPI
 
-This project demonstrates a simple HTML registration form and interacts with a JSON Server backend for data storage.
+This is a front-end application designed to interact with a Spring Boot back-end server. It makes HTTP requests to the server's endpoints to fetch and display animal images. In this README, you'll find instructions on how to set up and run this application.
+# Prerequisites
+- **Node.js**: This project's frontend is built with Node.js and uses npm for package management. You can download Node.js from [nodejs.org](https://nodejs.org/).
+- A code editor or integrated development environment (IDE)
+# Setup
+1)Clone this repository to your local machine using Git: ```git@github.com:TomsBirze/PetImgWebAPI.git```
 
-## Getting Started
+2)Navigate to the Project Directory: ```cd PetImgWebAPI```
 
-### Prerequisites
+3)Open it with code editor or IDE
 
-- Node.js (https://nodejs.org/)
+4)Type in the terminal : ```npm install```
 
-### Installation
-```sh
-1. Clone this repository:
+5)Type in the terminal : ```npm start```
 
-git clone https://github.com/TomsBirze/Registration-form
+# Running the Application
+1) Start your Spring Boot Back-End by following readme: 
+https://github.com/TomsBirze/...
 
-2. Navigate to the project directory:
+Ensure that your Spring Boot back-end is up and running. The front-end application will make API requests to the endpoints provided by the back-end.
 
-cd Registration-form
+2) Open the Front-End Application. After running npm start, it will be available on http://localhost:3000/
 
-3. Install the project dependencies:
+3) Interact with the Application
 
-npm install
+Click "Cat" to load content from Menu1 endpoint.
+Click "Dog" to load content from Menu2 endpoint.
 
-Usage
-To run the HTML form and start the JSON Server database, follow these steps:
-
-1. Start the JSON Server (built-in database):
-
-npm run db
-
-2. Open a new terminal window and start the HTML form:
-
-npm start
-
-The JSON Server will run at http://localhost:3004,
-and you can access the HTML form in your web browser at http://localhost:3000.
+The application will fetch and display animal images from the Spring Boot back-end based on your button clicks. 
