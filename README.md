@@ -17,7 +17,7 @@ This is a front-end application designed to interact with a Spring Boot back-end
 
 # Running the Application
 1) Start your Spring Boot Back-End by following readme: 
-https://github.com/TomsBirze/...
+https://github.com/TomsBirze/PetImgBackend
 
 Ensure that your Spring Boot back-end is up and running. The front-end application will make API requests to the endpoints provided by the back-end.
 
@@ -26,6 +26,7 @@ Ensure that your Spring Boot back-end is up and running. The front-end applicati
 3) Interact with the Application
 
 Click "Cat" to load content from Menu1 endpoint.
+
 Click "Dog" to load content from Menu2 endpoint.
 
 The application will fetch and display animal images from the Spring Boot back-end based on your button clicks. 
